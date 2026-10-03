@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+   font-size: 70px;
+   background-color: rgb(226, 208, 149);
+   text-align: center;
+}
+
+
+ .flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(97, 16, 16);
+ }
+
+ .flex-container>div{
+    background-color: beige;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 40px;
+
+
+ }
+
+ .fotos { 
+   display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(83, 33, 33);
+   }
+
+   .fotos>img{background-color: beige;
+      width: 100%;
+      margin: 10px;
+      height: 300px;;
+   }
+
+   .menu{
+      display: flex;
+      background-color: brown;
+    justify-content: space-around;
+
+   }
+
+   .menu>button{
+      margin: 10px;
+      height: 20px;
+      background-color: antiquewhite;
+   }
